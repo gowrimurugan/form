@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" class="form">
+            <header><b><u>FORM</u></b></header>
+            <div>
+                <label for="FirstName" class="firstname">Name : </label>
+                <input type="text" id="FirstName" placeholder="FirstName">
+            </div>
+            <div>
+                <label for="LastName" class="lasttname">Name : </label>
+                <input type="text" id="LastName" placeholder="FirstName">
+            </div>
+            <div>
+                <label for="FatherName">Father's Name : </label>
+                <input type="text" id="FatherName" placeholder="Father's Name">
+            </div>
+            <div>
+                <label for="Mother'sName">Mother's Name : </label>
+                <input type="text" id="Mother'sName" placeholder="Mother's Name">
+            </div>
+            <div>
+                <label for="Gender">Gender : </label>
+                <input type="radio" name="gender" id="Gender">M
+                <input type="radio" name="gender" id="Gender">F
+            </div>
+            <div>
+                <label for="DateOfBirth">Date Of Birth : </label>
+                <input type="date" name="" id="DateOfBirth" placeholder="DD/MM/YY">
+            </div>
+            <div>
+                <label for="Age">Age : </label>
+                <input type="text" id="Age" placeholder="20">
+            </div>
+            <div>
+                <label for="MaritalStatus">Marital Status : </label>
+                <input type="radio" id="MaritalStatus" name="status">S
+                <input type="radio" id="MaritalStatus" name="status">M
+            </div>
+            <div>
+                <label for="Qualification">Qualification : </label>
+                <select name="select" id="Qualification">
+                    <optgroup>
+                        <option value="Bachelor">Bachelor</option>
+                        <option value="Master">Master</option>
+                    </optgroup>
+                    </option>
+                </select>
+            </div>
+            <div>
+                <label for="attachfile">Attach File : </label>
+                <input type="file" name="" id="attachfile">
+            </div>
+            <div>
+                <label for="address">Address : </label>
+                <textarea name="" id="address" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="Email-id">Email-id : </label>
+                <input type="email" name="email" id="" placeholder="@gmail.com">
+            </div>
+            <div>
+                <label for="ph-no">Mobile No : </label>
+                <input type="tel" id="ph-no" placeholder="12345-67890" pattern="[0-9]{5}-[0-9]{5}"><br>
+                <label for="tel-no" class="tel">Tele-No : </label>
+                <input type="tel" name="telephone" id="tel-no" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+            </div>
+            <div>
+                <button>submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
